@@ -9,7 +9,7 @@ pipeline {
         stage('Clone Repository') {
             steps {
                 git branch: 'main',
-                    url: 'https://github.com/RohitPatil18/docker-fastapi-test'
+                    url: 'https://github.com/Prathamesh8766/fastAPI'
             }
         }
 
